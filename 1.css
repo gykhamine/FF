@@ -1,0 +1,113 @@
+@keyframes ngt {
+            from { top: 25% }
+            to { top: 15% }
+        }
+@keyframes ngt1 {
+            from { top: 15% }
+            to { top: 5% }
+        }
+@keyframes ngt2 {
+            from { left: -5% }
+            to { left  : 85% }
+        }       
+@keyframes bdt {
+            0% { visibility: hidden ; background-image: url(static/3.png); background-size: 100%; background-position: center center; }
+            40% { visibility: hidden ; background-image: url(static/g.jpg); background-size: 30%; background-position: center center; background-color: black; } 
+            41% { background-image: url(static/f.webp); background-size: 30%; background-color: black; }
+            42% { background-image: url(static/f.jpg); background-size: 30%; background-position: center center; background-color: black; } 
+            80% { visibility: visible; background-image: url(static/1750272284402.jpg); background-size: 50%; background-position: center center; background-color: rgba(6, 190, 247, 0.836); }
+            90% { background-image: url(static/1750272264725.jpg); background-size: 40%; background-color: bisque; }
+            95% { background-image: url(static/1750272305710.jpg); background-size: 50%; background-position: center center; background-color: rgb(236, 236, 236); } 
+        }
+body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      color: #388e3c;
+     /* Stack header, content, footer */
+      overflow-x: hidden; /* Prevent horizontal scrollbar during sidebar animation */
+      margin: 0%;
+      padding: ;
+    }  
+.logo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.logo1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.logo2{
+    animation: ngt2 2.0s ease infinite alternate;
+    width: 300PX;
+    height: 80PX;
+    position: absolute;
+    bottom: 10%;
+    right: 0%;
+}
+
+.hd{
+    animation: ngt 2.0s ease infinite alternate;
+    width: 80%;
+    height: 300px;
+    border-style: solid;
+    border-radius: 100px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+
+}
+.d{
+    text-decoration: none;
+}
+.h{
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    
+}
+.ht{
+    animation: ngt1 2.0s ease infinite alternate;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+.ht1{
+    animation: ngt1 2.0s ease infinite alternate;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+.ht2{
+    animation: ngt1 2.0s ease infinite alternate;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.l {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 100px;
+    border-color: #388e3c;
+    background-color: chocolate;
+    padding: 15px;
+    font-size: 20px;
+}
