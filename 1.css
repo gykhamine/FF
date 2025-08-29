@@ -6,9 +6,17 @@
             from { top: 15% }
             to { top: 5% }
         }
+@keyframes ngt3 {
+            from { top: 15% }
+            to { top: 5% }
+        }
+@keyframes ngt4 {
+            from { top: 15% }
+            to { top: 5% }
+        }
 @keyframes ngt2 {
-            from { left: -5% }
-            to { left  : 85% }
+            from { left: 15% }
+            to { left  : 25% }
         }       
 @keyframes bdt {
             0% { visibility: hidden ; background-image: url(static/3.png); background-size: 100%; background-position: center center; }
@@ -69,40 +77,40 @@ body {
 }
 .h{
     width: 80%;
-    height: 50%;
+    height: 500px;
     position: absolute;
     top: 25%;
     left: 10%;
     
 }
 .ht{
-    animation: ngt1 2.0s ease infinite alternate;
+    animation: ngt1 0.34s ease infinite alternate;
     width: 100px;
     height: 100px;
     position: absolute;
     top: 15%;
-    right: 10%;
+    left: 65%;
 }
 .ht1{
-    animation: ngt1 2.0s ease infinite alternate;
+    animation: ngt3 0.32s ease infinite alternate;
     width: 100px;
     height: 100px;
     position: absolute;
     top: 15%;
-    left: 35%;
+    left: 40%;
 }
 .ht2{
-    animation: ngt1 2.0s ease infinite alternate;
+    animation: ngt4 0.30s ease infinite alternate;
     width: 100px;
     height: 100px;
     position: absolute;
     top: 15%;
-    left: 10%;
+    left: 15%;
 }
 .l {
     position: absolute;
     top: 70%;
-    left: 20%;
+    left: 55%;
     text-decoration: none;
     border-style: solid;
     border-radius: 100px;
@@ -110,4 +118,5 @@ body {
     background-color: chocolate;
     padding: 15px;
     font-size: 20px;
+    color: black;
 }
